@@ -7,7 +7,7 @@ root.title("Digital Clock")
 root.geometry("250x100+0+0")
 root.resizable(0,0)
 
-label = Label(root, font=("Arial", 30, 'bold'), bg="blue", fg="powder blue", bd =30)
+label = Label(root, font=("Arial", 30, 'bold'), bg="green", fg="powder blue", bd =45)
 label.grid(row =0, column=1)
 
 def dig_clock():
